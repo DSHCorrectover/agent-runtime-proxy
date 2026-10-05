@@ -1,0 +1,57 @@
+{
+  "name": "agent-runtime-proxy",
+  "version": "1.0.0",
+  "description": "Agent runtime proxy — transparent fail-closed stdio proxy in front of an MCP server (Agent 运行时全栈拦截). Only tools/call is intercepted and verified; denied verdicts, verifier errors and timeouts are never forwarded. Ed25519 receipts. Zero dependencies.",
+  "type": "commonjs",
+  "bin": {
+    "agent-runtime-proxy": "src/cli.js"
+  },
+  "main": "src/proxy.js",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "agent-runtime",
+    "runtime-interception",
+    "mcp",
+    "model-context-protocol",
+    "mcp-proxy",
+    "mcp-security",
+    "agent-security",
+    "fail-closed",
+    "second-enforcement-layer",
+    "stdio-proxy",
+    "command-injection",
+    "ssrf",
+    "credential-protection",
+    "ed25519",
+    "correctover",
+    "supply-chain-security"
+  ],
+  "license": "Elastic-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSHCorrectover/agent-runtime-proxy.git"
+  },
+  "homepage": "https://github.com/DSHCorrectover/agent-runtime-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/DSHCorrectover/agent-runtime-proxy/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "agent-runtime-guard": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "agent-runtime-guard": {
+      "optional": true
+    }
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "node test/run-tests.js"
+  }
+}
