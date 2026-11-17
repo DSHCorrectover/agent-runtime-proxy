@@ -1,5 +1,7 @@
 # Agent Runtime Proxy · Agent 运行时拦截代理
 
+[**Commercial verification engagements — USD 8,000–15,000, court-ready dossier**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html) · [**Independent audit & conformance**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html)
+
 [![npm version](https://img.shields.io/npm/v/agent-runtime-proxy.svg)](https://www.npmjs.com/package/agent-runtime-proxy)
 
 > **在 MCP 服务器前面站一道独立的保安：不相信宿主里的任何插件，危险调用一律不放行。**
